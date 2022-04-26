@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       floatingActionButton: FloatingActionButton(onPressed: postPhones, child: Icon(Icons.add),),
       appBar: AppBar(
-        title: Text('Api'),
+        title: Text('Api for commit '),
       ),
       body: FutureBuilder(
           future: getPhones(),
